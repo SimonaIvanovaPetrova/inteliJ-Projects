@@ -1,0 +1,30 @@
+package HW;
+
+import java.util.Scanner;
+
+public class Exercise1Compare3Numbers {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first integer:" );
+        int firstNumber =sc.nextInt();
+        System.out.println("You have entered: "+ firstNumber);
+        System.out.println("Enter the second integer:" );
+        int secondNumber =sc.nextInt();
+        System.out.println("You have entered: "+ secondNumber);
+        System.out.println("Enter the third integer:" );
+        int thirdNumber = sc.nextInt();
+        System.out.println("You have entered: "+ thirdNumber);
+         if((firstNumber<thirdNumber&&thirdNumber<secondNumber)||
+                 (firstNumber>thirdNumber&&thirdNumber>secondNumber)){
+             System.out.println("The third number :"+thirdNumber+
+                     "is between"+" "+firstNumber+" "+
+                     "and "+ secondNumber);
+         }else{
+             System.out.println("The third integer is not between the first and second number");
+         }
+
+
+
+sc.close();
+    }
+}
