@@ -1,6 +1,6 @@
-package HW_4_8;
+package HW;
 
-public class Exercise2_5_3 {
+public class Exercise2 {
     public static void main(String[] args) {
         avgNumbers(5,10);
     }
