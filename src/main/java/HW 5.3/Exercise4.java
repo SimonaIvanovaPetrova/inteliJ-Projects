@@ -1,6 +1,6 @@
-package HW_4_8;
+package HW;
 
-public class Exercise4_5_3 {
+public class Exercise4 {
     //Задача 4
     //Напишете програма, която създава масив с 10 елемента от тип int
     // обходете масива:
