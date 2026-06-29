@@ -1,6 +1,6 @@
-package HW_4_8;
+package HW;
 
-public class Exercise5_5_3 {
+public class Exercise5 {
     public static void main(String[] args) {
         //Да се състави масив със следните стойности {10 12 1 8 4}.
         // След създаването на масива да се копират стойностите в нов масив
