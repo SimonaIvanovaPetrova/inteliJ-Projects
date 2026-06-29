@@ -1,8 +1,8 @@
-package HW_4_8;
+package HW;
 
 import java.util.Arrays;
 
-public class Exercise6_5_3 {
+public class Exercise6 {
     public static void main(String[] args) {
 
 
