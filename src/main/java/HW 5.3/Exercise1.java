@@ -1,6 +1,6 @@
 package HW;
 
-public class Exercise1_5_3 {
+public class Exercise1 {
     public static void main(String[] args) {
 sumNumbers(5,10);
     }
